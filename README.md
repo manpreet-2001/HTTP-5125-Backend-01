@@ -21,7 +21,14 @@ namespace Assignment01.Controllers
             return ("Welcome to 5125!");
         }
 
-       
+       // Sample code for Assignment 1
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace Assignment01.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class Q1Controller : Controller
         [HttpGet(template: "example")]
         public string example()
         {
